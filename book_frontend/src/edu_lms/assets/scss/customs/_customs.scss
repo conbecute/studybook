@@ -1,0 +1,80 @@
+@each $key, $value in $color {
+  .monkey-color-#{$key} {
+    color: $value;
+  }
+}
+
+@each $key, $value in $color {
+  .monkey-bc-#{$key} {
+    border-color: $value;
+  }
+}
+
+@each $key, $value in $color {
+  .monkey-bg-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in $fontSize {
+  .monkey-fz-#{$key} {
+    font-size: $value;
+  }
+}
+
+@each $key, $value in $fontFamily {
+  .monkey-f-#{$key} {
+    font-family: $value;
+  }
+}
+
+@each $key, $value in $distance {
+  .monkey-mt-#{$key} {
+    margin-top: $value;
+  }
+}
+@each $key, $value in $distance {
+  .monkey-mb-#{$key} {
+    margin-bottom: $value;
+  }
+}
+@each $key, $value in $distance {
+  .monkey-ml-#{$key} {
+    margin-left: $value;
+  }
+}
+@each $key, $value in $distance {
+  .monkey-mr-#{$key} {
+    margin-right: $value;
+  }
+}
+@each $key, $value in $distance {
+  .monkey-m-#{$key} {
+    padding: $value;
+  }
+}
+@each $key, $value in $distance {
+  .monkey-pt-#{$key} {
+    padding-top: $value;
+  }
+}
+@each $key, $value in $distance {
+  .monkey-pb-#{$key} {
+    padding-bottom: $value;
+  }
+}
+@each $key, $value in $distance {
+  .monkey-pl-#{$key} {
+    padding-left: $value;
+  }
+}
+@each $key, $value in $distance {
+  .monkey-pr-#{$key} {
+    padding-right: $value;
+  }
+}
+@each $key, $value in $distance {
+  .monkey-p-#{$key} {
+    padding: $value;
+  }
+}

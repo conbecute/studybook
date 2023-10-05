@@ -1,0 +1,15 @@
+.dropdown_grade {
+  width: 135px;
+}
+.infinite-scroll-component {
+  overflow: inherit !important;
+}
+
+@media (max-width: 575px) {
+  .list-image-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+  }
+}

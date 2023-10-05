@@ -1,0 +1,57 @@
+#icon-action > .fa-play-circle {
+  -webkit-animation: glowing 1000ms infinite;
+  animation: glowing 1000ms infinite;
+}
+
+.menu-book .label:hover {
+  color: #ff7707;
+}
+.menu-book .text-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-book .text-label:hover {
+  white-space: normal;
+  overflow: visible;
+}
+#color-picker {
+  position: absolute;
+  bottom: 85px;
+  left: 386px;
+  z-index: 300;
+}
+
+.monkey-f-header {
+  font-family: "Monkey-header";
+}
+
+.monkey-fz-18 {
+  font-size: 1.125rem;
+}
+
+.monkey-fz-20 {
+  font-size: 1.25rem;
+}
+
+.monkey-fz-25 {
+  font-size: 1.67rem;
+}
+
+.monkey-fz-30 {
+  font-size: 1.875rem;
+}
+
+.menu-book #preview {
+  overflow: hidden !important;
+}
+
+.menu-book ol li {
+  margin-left: 10px;
+  text-overflow: ellipsis;
+}
+ul #preview #setText * {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

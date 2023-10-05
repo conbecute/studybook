@@ -1,0 +1,1 @@
+export { EducationTeacherContainer } from "./container";

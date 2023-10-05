@@ -1,0 +1,12 @@
+.pronunciation {
+  button:first-child {
+    left: 10px;
+  }
+  button:last-child {
+    right: 10px;
+  }
+}
+
+.pronunciation__wrapper {
+  overflow: auto;
+}

@@ -1,0 +1,24 @@
+.input-search {
+  height: 3.125rem;
+  width: 16rem;
+  z-index: 99;
+  position: relative;
+  .form-control {
+    padding-left: 1.4375rem;
+    width: 100%;
+    height: 100%;
+    font-size: $f15;
+    font-family: $MonkeyRegular;
+    position: relative;
+    &:focus {
+      border: 1px solid #ced4da;
+    }
+  }
+  .icon-search {
+    width: 2.5625rem;
+    height: 2.5625rem;
+    position: absolute;
+    right: 5px;
+    bottom: 9%;
+  }
+}

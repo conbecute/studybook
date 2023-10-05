@@ -1,0 +1,1 @@
+export { EducationProgramContainer } from "./container";

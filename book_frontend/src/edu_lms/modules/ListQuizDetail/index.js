@@ -1,0 +1,1 @@
+export { ListQuizDetailContainer } from "./containers";

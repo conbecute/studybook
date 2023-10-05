@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+       <loc>https://hoc10.vn/sitemap_blog.xml</loc>
+       <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+   </url>
+
+    <url>
+        <loc>https://hoc10.vn/sitemap_page.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+
+    <url>
+        <loc>https://hoc10.vn/sitemap_book_4.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+    <url>
+        <loc>https://hoc10.vn/sitemap_book_5.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+    <url>
+        <loc>https://hoc10.vn/sitemap_book_6.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+    <url>
+        <loc>https://hoc10.vn/sitemap_book_7.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+    <url>
+        <loc>https://hoc10.vn/sitemap_book_9.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+    <url>
+        <loc>https://hoc10.vn/sitemap_book_10.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+    <url>
+        <loc>https://hoc10.vn/sitemap_book_11.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+    <url>
+        <loc>https://hoc10.vn/sitemap_book_13.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+    <url>
+        <loc>https://hoc10.vn/sitemap_book_14.xml</loc>
+        <lastmod>2023-03-22T17:21:49+07:00</lastmod>
+    </url>
+</urlset> 

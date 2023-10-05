@@ -1,0 +1,80 @@
+.update_info_content {
+  border: 1px solid $violet;
+  border-radius: 15px;
+  overflow: hidden;
+  .slick-slider {
+    .slick-list {
+      width: 70%;
+      height: 360px;
+      border-left: 1px solid $violet;
+      float: right;
+    }
+    .dot_info {
+      padding-top: 30px;
+      li {
+        padding: 15px 0;
+        list-style: none;
+      }
+      .slick-active {
+        position: relative;
+        color: $violet;
+        font-family: $MonkeyBold;
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          width: 5px;
+          height: 100%;
+          background-color: $violet;
+          left: -42px;
+          transition-duration: 0.3s;
+          transition-property: transform;
+          transition-timing-function: ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.from-info {
+  height: 360px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.forgot_password_wrapper {
+  .nav_forgot_password {
+    width: 30%;
+    padding-top: 40px;
+    position: relative;
+    padding-left: 15px;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 26px;
+      width: 5px;
+      height: 50px;
+      background-color: $violet;
+      left: -2px;
+      transition-duration: 0.3s;
+      transition-property: transform;
+      transition-timing-function: ease-in-out;
+    }
+  }
+  .slick-list {
+    width: 70%;
+    height: 360px;
+    border-left: 1px solid $violet;
+    float: right;
+  }
+}

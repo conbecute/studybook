@@ -1,0 +1,64 @@
+.distance-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-style {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.text-decoration {
+  text-decoration: underline;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.align-sub {
+  vertical-align: sub;
+}
+button:focus {
+  outline: 0;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: #f5f5f5;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #818181;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(6, 3, 3, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(30, 30, 30, 0.2) 50%,
+    rgba(14, 3, 4, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+}
+
+@media (max-width: 1024px) {
+  .d-desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .d-mobile {
+    display: none !important;
+  }
+}
+
+.form_search {
+  z-index: 2;
+}
+.line-height-1-5 {
+  line-height: 1.5;
+}

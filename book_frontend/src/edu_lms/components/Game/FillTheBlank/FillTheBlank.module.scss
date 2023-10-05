@@ -1,0 +1,10 @@
+.gameFIB001 [contenteditable="true"]:empty:before {
+  content: attr(placeholder);
+  display: block;
+  color: #aaa;
+}
+.text {
+  ol li:first-child {
+    margin-left: 20px;
+  }
+}

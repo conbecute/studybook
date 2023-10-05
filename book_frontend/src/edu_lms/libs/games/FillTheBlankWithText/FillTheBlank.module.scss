@@ -1,0 +1,28 @@
+.gameFIB001 [contenteditable="true"]:empty:before {
+  content: attr(placeholder);
+  display: block;
+  color: #aaa;
+}
+.text {
+  ol li:first-child {
+    margin-left: 20px;
+  }
+  margin-left: 10%;
+  div div div div {
+    padding-left: 20px;
+  }
+}
+.title {
+  margin-left: 10%;
+}
+.borderRadius7 {
+  border-radius: 7px;
+}
+
+@media (max-height: 768px), (max-width: 576px) {
+  .gameFIB001 {
+    .inputText {
+      font-size: 18px !important;
+    }
+  }
+}

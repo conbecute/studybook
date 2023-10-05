@@ -1,0 +1,1 @@
+export { InstructionActivatedBookContainer } from "./containers";

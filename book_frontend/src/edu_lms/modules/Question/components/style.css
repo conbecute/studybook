@@ -1,0 +1,159 @@
+.wrapper-question {
+  margin-top: 30px;
+}
+.question-page {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.question-left {
+  height: calc(100vh - 60px);
+  overflow: scroll;
+  overflow-x: visible;
+  background: #fff;
+  padding-top: 15px;
+}
+.question-right {
+  justify-content: center;
+  padding: 10px 50px;
+}
+.wrapper-question {
+  margin-top: 27px;
+}
+.question-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.question-view .list-btn-question {
+  flex: 1 1;
+  color: #b3b3b3;
+  text-align: center;
+}
+.question-view .question-view-content {
+  flex: 5.5 1;
+  background-color: #fff;
+  height: 120px;
+  max-width: 168px;
+  font-size: 0.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.question-view-content .bottom-card .answer {
+  position: relative;
+  margin: 3px;
+  border-radius: 0.125rem;
+  height: 0.9rem;
+  cursor: pointer;
+}
+.question-view .question-view-content .bottom-card .incorrect {
+  border: 1px;
+  border-style: solid;
+  border-color: #cfdee7;
+  width: 50px;
+}
+.question-view .question-view-content .bottom-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+}
+#math-field {
+  width: 475px;
+  height: 45px;
+}
+body {
+  background: none;
+}
+.list-math-suggestion {
+  margin-top: 20px;
+  padding: 15px 0;
+  overflow-x: scroll;
+}
+.list-math-suggestion .keypad-inner {
+  height: 295px;
+  width: 1300px;
+}
+.mq-editable-field {
+  min-width: 448px;
+  min-height: 65px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.mq-root-block,
+.mq-math-mode .mq-root-block {
+  padding: 6px !important;
+}
+.list-math-suggestion .keypad-inner .column.col5 {
+  width: 220px;
+}
+.list-math-suggestion .keypad-inner .column.col4 {
+  width: 176px;
+}
+.list-math-suggestion .keypad-inner .column.col3 {
+  width: 132px;
+}
+.list-math-suggestion .keypad-inner .column {
+  display: inline-block;
+  margin-right: 18px;
+}
+.list-math-suggestion .keypad-inner .key {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 4px;
+  margin-top: 4px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.list-math-suggestion .keypad-inner button {
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* .footer {
+  margin-top: 30px;
+} */
+.wrap-answer {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.wrap-image {
+  margin-top: 10px;
+  text-align: center;
+}
+.iconDelete {
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  font-size: 30px;
+  color: red;
+}
+.scrollbar-question {
+  float: left;
+  overflow-y: scroll;
+}
+/* .scrollbar-question::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+} */
+.scrollbar-question::-webkit-scrollbar {
+  width: 6px;
+  background-color: white;
+}
+/* .scrollbar-question::-webkit-scrollbar-thumb {
+  background-color: #2a404f;
+} */

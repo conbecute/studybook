@@ -1,0 +1,27 @@
+body {
+  .continue {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .continue {
+      left: 40%;
+      top: 15%;
+      text-align: center;
+    }
+    .exercise {
+      position: relative;
+      left: 20px;
+    }
+    .button {
+      margin-left: 35px;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .continue {
+      width: 90%;
+      left: 10%;
+    }
+  }
+}

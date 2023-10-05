@@ -1,0 +1,23 @@
+.label-active-date-publish {
+  left: 20%;
+  top: 55%;
+  position: absolute;
+}
+
+.image-container .after .icon-lock {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  font-size: 40px;
+}
+
+.downloadFile {
+  color: #fff;
+}
+.button-cursor {
+  cursor: pointer;
+}
+.fa-book:before {
+  content: "\f02d";
+  margin-right: 7px;
+}

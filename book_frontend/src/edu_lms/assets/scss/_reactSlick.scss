@@ -1,0 +1,92 @@
+.slick-prev,
+.slick-next {
+  &::before {
+    font-size: 40px;
+    color: $light-brown;
+  }
+  &:hover {
+    &::before {
+      color: $blue;
+    }
+  }
+}
+.slick-prev {
+  left: 0;
+  z-index: 60;
+}
+.slick-next {
+  right: 20px;
+  z-index: 60;
+}
+
+.slick-list {
+  .book_item_wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+  input {
+    height: 45px;
+  }
+}
+
+.react-tel-input {
+  height: 45px;
+  width: 100%;
+  border-radius: 50px;
+  .form-control {
+    height: 45px;
+    border-radius: 50px;
+    width: 100%;
+  }
+  .flag-dropdown {
+    border-radius: 50px 0 0px 50px;
+  }
+}
+
+.dot-banner-home {
+  bottom: 15px;
+  li {
+    button {
+      &:before {
+        font-size: 11px;
+      }
+    }
+  }
+}
+.slick-dots {
+  li {
+    button {
+      &:before {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.slider-banner-home {
+  li {
+    button {
+      &:before {
+        width: 30px !important;
+        color: $white;
+      }
+    }
+  }
+  .slick-active {
+    margin: 0;
+    button {
+      &:before {
+        content: "" !important;
+        width: 30px !important;
+        height: 13px !important;
+        background-color: $white;
+        border-radius: 15px;
+        top: 2px !important;
+      }
+    }
+  }
+}

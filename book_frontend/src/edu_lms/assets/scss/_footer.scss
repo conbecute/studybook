@@ -1,0 +1,137 @@
+.address-content {
+  position: relative;
+  border-top: 1px solid $white;
+  border-bottom: 1px solid $white;
+  .img-certification {
+    height: 3rem;
+  }
+  p {
+    margin-bottom: 0.3125rem;
+  }
+}
+
+.seo-body {
+  .list-inline-item {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-right: 0;
+    border-right: 1px solid $white;
+    &:last-child {
+      border: none;
+    }
+  }
+}
+.border-line {
+  position: relative;
+  .time {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+  }
+}
+.footer-item {
+  justify-content: center;
+  position: relative;
+  margin-top: 1rem;
+  .img-certification {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+.contact-content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 3.3125rem;
+  grid-template-columns: auto auto;
+  img {
+    width: 2.4375rem;
+    height: 2.4375rem;
+  }
+  .list-inline {
+    position: relative;
+    .email {
+      position: absolute;
+      top: 1.5625rem;
+      left: 15px;
+    }
+  }
+
+  .list-inline {
+    &:first-child {
+      li {
+        margin-right: 0;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        &:first-child {
+          border-right: 2px solid $white;
+        }
+        @media (max-width: 991px) {
+          padding: 0;
+          &:first-child {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+.contact-content .size-icon-title {
+  width: 2.4375rem;
+  height: 2.4375rem;
+}
+.address-content {
+  border-bottom: 1px solid $white;
+}
+@media (max-width: 991px) {
+  footer {
+    .address-content {
+      .text-center {
+        text-align: left !important;
+      }
+    }
+    .contact-content {
+      justify-content: space-between;
+      grid-gap: 0;
+      .list-inline {
+        &:first-child {
+          li {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .footer-body {
+    font-size: 15px;
+    .contact-content {
+      img {
+        width: 1.7rem;
+        height: 1.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .footer-payment {
+    display: none;
+  }
+}
+
+.footer-item {
+  a {
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+input:disabled {
+  background: $light-silver !important;
+}

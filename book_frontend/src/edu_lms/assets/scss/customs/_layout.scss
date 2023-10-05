@@ -1,0 +1,203 @@
+@mixin padding-style($number) {
+  padding-top: $number;
+  padding-bottom: $number;
+}
+
+@mixin font-style($number) {
+  font-size: $number;
+}
+
+html {
+  @include font-style(16px);
+}
+
+@media (max-width: 1140px) {
+  html {
+    @include font-style(14px);
+  }
+  .monkey-course {
+    @include font-style(16px);
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    @include font-style(16px);
+  }
+}
+@media (max-width: 767px) {
+  html {
+    @include font-style(14px);
+  }
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: $gray;
+  font-family: "Monkey-medium";
+  line-height: 1.2;
+  background-color: $light-gray;
+  padding-right: 0;
+  font-size: 1rem;
+}
+p {
+  margin-bottom: 0;
+}
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+* {
+  -webkit-backface-visibility: hidden;
+}
+
+.activate_book_wrapper,
+.tutorial_wrapper,
+.list_book_wrapper,
+.update_information_wrapper,
+.introduce_wrapper,
+.electronic_courseware_wrapper,
+.introduce_activated_book_wrapper,
+.book-introduce-wrapper,
+.contact_wrapper,
+.training_test_wrapper,
+.exam_exercises_wrapper,
+.dashboard_wrapper,
+.terms_of_use_wrapper,
+.privacy_policy_wrapper {
+  margin-top: 77px;
+}
+.modal-dialog {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  &.popup_pdf {
+    margin: auto;
+    display: inherit;
+    align-items: inherit;
+    height: 100%;
+    .modal-content {
+      height: 100%;
+      overflow-y: scroll;
+    }
+  }
+}
+
+.form-control {
+  &:focus {
+    border: 1px solid rgba(0, 102, 178, 0.28);
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 178, 0.26);
+  }
+}
+
+.title-contact {
+  border-bottom: 3px solid $violet !important;
+}
+.item-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact_footer {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.contact_footer_icon {
+  width: 50px;
+  height: 50px;
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+::placeholder {
+  opacity: 0.4 !important;
+}
+.modal-body {
+  padding: 0;
+}
+.popup_pdf {
+  // max-width: 970px;
+  .modal-body {
+    padding: 0;
+    // overflow-x: scroll;
+  }
+  .react-pdf__Document {
+    height: 100%;
+  }
+  .content-popup-pdf {
+    height: 100%;
+    overflow-y: scroll;
+  }
+}
+
+// .modal-open .modal {
+//   overflow-x: inherit;
+//   overflow-y: inherit;
+// }
+
+.banner-content-mobile {
+  img {
+    width: 80% !important;
+  }
+}
+@media (max-width: 767px) {
+  .banner-content-mobile {
+    img {
+      width: 50% !important;
+      margin: auto;
+    }
+  }
+}
+.reading-book {
+  background-color: $white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  display: none;
+  // background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEUAvewAw/cSl2jYAAAAFklEQVQI12OQY7BhqGD4wPCI4RhDHwAWOgP5KPWXewAAAABJRU5ErkJggg==) repeat;
+  .page {
+    background-color: $white;
+    color: #785e3a;
+    padding: 5px;
+    border: solid 1px #c2b5a3;
+    overflow: hidden;
+  }
+  .page.--left,
+  .page.--right {
+    border-right: 0;
+    box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.popup_question {
+  .modal-content {
+    // max-height: 90%;
+    height: 100%;
+  }
+  .modal-body {
+    height: 100%;
+    padding: 0;
+    // overflow-y: scroll;
+  }
+  @media (min-width: 576px) and (max-width: 1200px) {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .vertical-middle {
+    vertical-align: middle;
+  }
+  // .modal-header {
+  //   padding: 10px;
+  // }
+  // .game-container {
+  //   height: 500px;
+  //   overflow: scroll;
+  //   width: 100%;
+  // }
+}

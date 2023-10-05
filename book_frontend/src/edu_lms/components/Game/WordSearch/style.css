@@ -1,0 +1,18 @@
+.grid-wrapper-v1 {
+  border: 3px solid black;
+  border-radius: 10px;
+  float: left;
+}
+.grid-wrapper-v1 table {
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+.cell-v1 {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(20, 198, 244);
+}
+.cell-v1:hover {
+  cursor: pointer;
+  background: rgb(20, 198, 244);
+}

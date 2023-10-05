@@ -1,0 +1,30 @@
+.mathPix {
+  ol li {
+    margin-left: 35px;
+  }
+}
+
+.MathContainer {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 100px;
+}
+
+.listAnswerWrapper {
+  .answerInput {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: #ffff;
+    margin-right: 10px;
+  }
+
+  :global(#content) {
+    display: inline;
+
+    div {
+      display: inline !important;
+    }
+  }
+}

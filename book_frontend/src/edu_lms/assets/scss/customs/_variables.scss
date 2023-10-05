@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "Monkey-header";
+  src: url("https://hvegjijo7jobj.vcdn.cloud/upload/web/font_web/Quicksand-Bold.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monkey-bold";
+  src: url("https://monkeymedia2020.s3.ap-southeast-1.amazonaws.com/upload%2Fweb%2Ffont_web%2FMontserrat-Bold.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monkey-medium";
+  src: url("https://monkeymedia2020.s3.ap-southeast-1.amazonaws.com/upload%2Fweb%2Ffont_web%2FMontserrat-Medium.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monkey-regular";
+  src: url("https://monkeymedia2020.s3.ap-southeast-1.amazonaws.com/upload%2Fweb%2Ffont_web%2FMontserrat-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monkey-appleberry";
+  src: url("https://monkeymedia2020.s3.ap-southeast-1.amazonaws.com/upload%2Fweb%2Ffont_web%2FSVN-Appleberry.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Monkey-quicksand";
+  src: url("https://hvegjijo7jobj.vcdn.cloud/upload/web/font_web/Quicksand-VariableFont_wght.ttf")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "monkey-font-icon";
+  src: url("https://monkeymedia2020.s3.ap-southeast-1.amazonaws.com/upload%2Fweb%2Ffont-icon%2Fmonkey-font-icon.eot");
+  src: url("https://monkeymedia2020.s3.ap-southeast-1.amazonaws.com/upload%2Fweb%2Ffont-icon%2Fmonkey-font-icon.eot")
+      format("embedded-opentype"),
+    url("https://monkeymedia2020.s3.ap-southeast-1.amazonaws.com/upload%2Fweb%2Ffont-icon%2Fmonkey-font-icon.ttf")
+      format("truetype"),
+    url("https://monkeymedia2020.s3.ap-southeast-1.amazonaws.com/upload%2Fweb%2Ffont-icon%2Fmonkey-font-icon.woff")
+      format("woff"),
+    url("https://monkeymedia2020.s3.ap-southeast-1.amazonaws.com/upload%2Fweb%2Ffont-icon%2Fmonkey-font-icon.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+$white: #fff;
+$red: #ee202e;
+$gray: #4d4c51;
+$black: #000;
+$yellow: #f4eb33;
+$sunshine: #fbad18;
+$violet: #0066b2;
+$blue: #00c2f3;
+$neon-blue: #00589c;
+$green: #92c83e;
+$silver: #f7f7f7;
+$light-gray: #f1f2f2;
+$light-silver: #939598;
+$light-black: #2b2b2b;
+$light-red: #d71920;
+$light-yellow: #fdbe25;
+$light-brown: #939598;
+$transparent: transparent;
+$color: (
+  white: $white,
+  red: $red,
+  gray: $gray,
+  black: $black,
+  yellow: $yellow,
+  sunshine: $sunshine,
+  violet: $violet,
+  silver: $silver,
+  blue: $blue,
+  green: $green,
+  neon-blue: $neon-blue,
+  light-silver: $light-silver,
+  light-gray: $light-gray,
+  light-black: $light-black,
+  light-red: $light-red,
+  light-yellow: $light-yellow,
+  light-brown: $light-brown,
+  transparent: $transparent,
+);
+$Header: "Monkey-header";
+$MonkeyBold: "Monkey-bold";
+$MonkeyMedium: "Monkey-medium";
+$MonkeyRegular: "Monkey-regular";
+$MonkeyRegular: "Monkey-regular";
+$MonkeyAppleberry: "Monkey-appleberry";
+$MonkeyQuicksand: "Monkey-quicksand";
+$fontFamily: (
+  header: $Header,
+  bold: $MonkeyBold,
+  medium: $MonkeyMedium,
+  regular: $MonkeyRegular,
+  appleberry: $MonkeyAppleberry,
+  quicksand: $MonkeyQuicksand,
+);
+$distance-15: 1rem;
+$distance-20: 1.3rem;
+$distance-25: 1.5rem;
+$distance-30: 1.875rem;
+$distance-35: 2.1875rem;
+$distance-40: 2.5rem;
+$distance-45: 2.8125rem;
+$distance-55: 3.4375rem;
+$distance: (
+  15: $distance-15,
+  20: $distance-20,
+  25: $distance-25,
+  30: $distance-30,
+  35: $distance-35,
+  40: $distance-40,
+  45: $distance-45,
+  55: $distance-55,
+);
+$f10: 0.5rem;
+$f12: 0.75rem;
+$f14: 0.875rem;
+$f15: 0.9375rem;
+$f16: 1rem;
+$f17: 1.0625rem;
+$f18: 1.125rem;
+$f19: 1.1875rem;
+$f20: 1.25rem;
+$f22: 1.375rem;
+$f24: 1.5rem;
+$f25: 1.67rem;
+$f28: 1.75rem;
+$f30: 1.875rem;
+$f32: 2rem;
+$f34: 2.125rem;
+$f36: 2.25rem;
+$f40: 2.5rem;
+$f43: 2.6875rem;
+$f48: 3rem;
+$f50: 3.125rem;
+$f58: 3.625rem;
+$f77: 4.8125rem;
+$f222: 14.8rem;
+$fontSize: (
+  10: $f10,
+  12: $f12,
+  14: $f14,
+  15: $f15,
+  16: $f16,
+  17: $f17,
+  18: $f18,
+  19: $f19,
+  20: $f20,
+  22: $f22,
+  24: $f24,
+  25: $f25,
+  28: $f28,
+  30: $f30,
+  32: $f32,
+  34: $f34,
+  36: $f36,
+  40: $f40,
+  43: $f43,
+  48: $f48,
+  50: $f50,
+  58: $f58,
+  77: $f77,
+  222: $f222,
+);
